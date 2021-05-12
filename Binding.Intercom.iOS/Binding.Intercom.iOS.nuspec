@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Binding.Intercom.iOS</id>
+    <version>9.3.1.1</version>
+    <title>$title$</title>
+    <authors>nventive</authors>
+    <owners>nventive</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <description>https://github.com/nventive/Binding.Intercom</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>Tag1 Tag2</tags>
+  </metadata>
+</package>

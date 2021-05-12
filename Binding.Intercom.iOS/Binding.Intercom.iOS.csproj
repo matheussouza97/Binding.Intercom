@@ -437,4 +437,15 @@
 		</PackageReference>
 	</ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
+
+  <Target Name="BeforeBuild">
+    <RemoveDir Directories="lib" />
+  </Target>
+
+  <Target Name="AfterBuild">
+    <Copy SourceFiles="bin\Debug\Binding.Intercom.iOS.dll" DestinationFolder="lib\Xamarin.iOS10" ContinueOnError="true" />
+    <RemoveDir Directories="bin" />
+    <RemoveDir Directories="obj" />
+  </Target>
+
 </Project>
