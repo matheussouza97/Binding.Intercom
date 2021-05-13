@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Binding.Intercom.Android</id>
+    <version>9.1.0</version>
+    <title>$title$</title>
+    <authors>Matheus Souza</authors>
+    <owners>Matheus Souza</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <description>https://github.com/nventive/Binding.Intercom</description>
+    <copyright>Copyright 2021</copyright>
+
+    <dependencies>
+        <dependency id="Xamarin.Android.Glide" version="4.11.0.1" />
+        <dependency id="GoogleGson" version="2.8.6" />
+    </dependencies>
+
+  </metadata>
+</package>
