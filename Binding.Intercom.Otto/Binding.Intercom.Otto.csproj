@@ -14,7 +14,6 @@
     <AssemblyName>Binding.Intercom.Otto</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
@@ -58,11 +57,11 @@
     <EmbeddedJar Include="Jars\otto-1.3.8.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
+
   <Target Name="AfterBuild">
+    <Copy SourceFiles="bin\Debug\Binding.Intercom.Otto.dll" DestinationFolder="..\AndroidBuild\lib\MonoAndroid10" ContinueOnError="true" />
+    <RemoveDir Directories="bin" />
+    <RemoveDir Directories="obj" />
   </Target>
-  -->
+
 </Project>
