@@ -8,14 +8,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{D9BCD5C3-F44C-42AE-A080-D0D2C6B3272E}"
-	ProjectSection(SolutionItems) = preProject
-		Build\Build.proj = Build\Build.proj
-		Xamarin.Android.Common.props = Xamarin.Android.Common.props
-	EndProjectSection
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Binding.Intercom.Xamarin", "Binding.Intercom.Xamarin\Binding.Intercom.Xamarin.csproj", "{47E30BFE-B181-40FD-8D8F-7518E04E9AD5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding.Intercom.Android.Base", "Binding.Intercom.Android.Base\Binding.Intercom.Android.Base.csproj", "{F0328075-60C9-4469-8E80-B57B23B17CF0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding.Intercom.Android.Composer", "Binding.Intercom.Android.Composer\Binding.Intercom.Android.Composer.csproj", "{21FF9919-F661-45AF-BF19-A2679BF55D83}"
@@ -24,19 +16,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding.Intercom.Android.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding.Intercom.Android.Fcm", "Binding.Intercom.Android.Fcm\Binding.Intercom.Android.Fcm.csproj", "{67ABBA01-23F2-410A-B5C8-45420101F5F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding.Intercom.iOS", "Binding.Intercom.iOS\Binding.Intercom.iOS.csproj", "{A016D852-BD48-4B0E-BE21-553989C9676B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding.Intercom.Twig", "Binding.Intercom.Twig\Binding.Intercom.Twig.csproj", "{F3812689-4F71-44EB-928F-4502CAFB0A19}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding.Intercom.Nexus", "Binding.Intercom.Nexus\Binding.Intercom.Nexus.csproj", "{A2BFA327-5FF5-409B-908B-F20F59890588}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding.Intercom.Android.Commons", "Binding.Intercom.Android.Commons\Binding.Intercom.Android.Commons.csproj", "{5BF100DC-A5B4-4362-971A-C37D67407F24}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding.Intercom.Retrofit", "Binding.Intercom.Retrofit\Binding.Intercom.Retrofit.csproj", "{45F9077A-F782-46C7-8EDE-BDCD1A867422}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding.Intercom.Retrofit.Converter.Gson", "Binding.Intercom.Retrofit.Converter.Gson\Binding.Intercom.Retrofit.Converter.Gson.csproj", "{188D3276-B6F2-48AF-9F33-AB5253407A79}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding.Intercom.Otto", "Binding.Intercom.Otto\Binding.Intercom.Otto.csproj", "{B000E186-59BC-4689-9932-46AF408F502F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,14 +30,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{47E30BFE-B181-40FD-8D8F-7518E04E9AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47E30BFE-B181-40FD-8D8F-7518E04E9AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47E30BFE-B181-40FD-8D8F-7518E04E9AD5}.Release_Android|Any CPU.ActiveCfg = Release|Any CPU
-		{47E30BFE-B181-40FD-8D8F-7518E04E9AD5}.Release_Android|Any CPU.Build.0 = Release|Any CPU
-		{47E30BFE-B181-40FD-8D8F-7518E04E9AD5}.Release_iOS|Any CPU.ActiveCfg = Release|Any CPU
-		{47E30BFE-B181-40FD-8D8F-7518E04E9AD5}.Release_iOS|Any CPU.Build.0 = Release|Any CPU
-		{47E30BFE-B181-40FD-8D8F-7518E04E9AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47E30BFE-B181-40FD-8D8F-7518E04E9AD5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F0328075-60C9-4469-8E80-B57B23B17CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F0328075-60C9-4469-8E80-B57B23B17CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0328075-60C9-4469-8E80-B57B23B17CF0}.Release_Android|Any CPU.ActiveCfg = Release|Any CPU
@@ -86,14 +62,6 @@ Global
 		{67ABBA01-23F2-410A-B5C8-45420101F5F6}.Release_iOS|Any CPU.Build.0 = Release|Any CPU
 		{67ABBA01-23F2-410A-B5C8-45420101F5F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67ABBA01-23F2-410A-B5C8-45420101F5F6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A016D852-BD48-4B0E-BE21-553989C9676B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A016D852-BD48-4B0E-BE21-553989C9676B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A016D852-BD48-4B0E-BE21-553989C9676B}.Release_Android|Any CPU.ActiveCfg = Release|Any CPU
-		{A016D852-BD48-4B0E-BE21-553989C9676B}.Release_Android|Any CPU.Build.0 = Release|Any CPU
-		{A016D852-BD48-4B0E-BE21-553989C9676B}.Release_iOS|Any CPU.ActiveCfg = Release|Any CPU
-		{A016D852-BD48-4B0E-BE21-553989C9676B}.Release_iOS|Any CPU.Build.0 = Release|Any CPU
-		{A016D852-BD48-4B0E-BE21-553989C9676B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A016D852-BD48-4B0E-BE21-553989C9676B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F3812689-4F71-44EB-928F-4502CAFB0A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F3812689-4F71-44EB-928F-4502CAFB0A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3812689-4F71-44EB-928F-4502CAFB0A19}.Release_Android|Any CPU.ActiveCfg = Release|Any CPU
@@ -118,30 +86,6 @@ Global
 		{5BF100DC-A5B4-4362-971A-C37D67407F24}.Release_iOS|Any CPU.Build.0 = Release|Any CPU
 		{5BF100DC-A5B4-4362-971A-C37D67407F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BF100DC-A5B4-4362-971A-C37D67407F24}.Release|Any CPU.Build.0 = Release|Any CPU
-		{45F9077A-F782-46C7-8EDE-BDCD1A867422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{45F9077A-F782-46C7-8EDE-BDCD1A867422}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{45F9077A-F782-46C7-8EDE-BDCD1A867422}.Release_Android|Any CPU.ActiveCfg = Release|Any CPU
-		{45F9077A-F782-46C7-8EDE-BDCD1A867422}.Release_Android|Any CPU.Build.0 = Release|Any CPU
-		{45F9077A-F782-46C7-8EDE-BDCD1A867422}.Release_iOS|Any CPU.ActiveCfg = Release|Any CPU
-		{45F9077A-F782-46C7-8EDE-BDCD1A867422}.Release_iOS|Any CPU.Build.0 = Release|Any CPU
-		{45F9077A-F782-46C7-8EDE-BDCD1A867422}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{45F9077A-F782-46C7-8EDE-BDCD1A867422}.Release|Any CPU.Build.0 = Release|Any CPU
-		{188D3276-B6F2-48AF-9F33-AB5253407A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{188D3276-B6F2-48AF-9F33-AB5253407A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{188D3276-B6F2-48AF-9F33-AB5253407A79}.Release_Android|Any CPU.ActiveCfg = Release|Any CPU
-		{188D3276-B6F2-48AF-9F33-AB5253407A79}.Release_Android|Any CPU.Build.0 = Release|Any CPU
-		{188D3276-B6F2-48AF-9F33-AB5253407A79}.Release_iOS|Any CPU.ActiveCfg = Release|Any CPU
-		{188D3276-B6F2-48AF-9F33-AB5253407A79}.Release_iOS|Any CPU.Build.0 = Release|Any CPU
-		{188D3276-B6F2-48AF-9F33-AB5253407A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{188D3276-B6F2-48AF-9F33-AB5253407A79}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B000E186-59BC-4689-9932-46AF408F502F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B000E186-59BC-4689-9932-46AF408F502F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B000E186-59BC-4689-9932-46AF408F502F}.Release_Android|Any CPU.ActiveCfg = Release|Any CPU
-		{B000E186-59BC-4689-9932-46AF408F502F}.Release_Android|Any CPU.Build.0 = Release|Any CPU
-		{B000E186-59BC-4689-9932-46AF408F502F}.Release_iOS|Any CPU.ActiveCfg = Release|Any CPU
-		{B000E186-59BC-4689-9932-46AF408F502F}.Release_iOS|Any CPU.Build.0 = Release|Any CPU
-		{B000E186-59BC-4689-9932-46AF408F502F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B000E186-59BC-4689-9932-46AF408F502F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
