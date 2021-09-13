@@ -13,7 +13,11 @@
 
     <dependencies>
         <dependency id="Xamarin.Android.Glide" version="4.11.0.1" />
-        <dependency id="GoogleGson" version="2.8.6" />
+        <dependency id="Xamarin.Android.SquareUp.Otto" version="1.3.8.2" />
+        <dependency id="Square.Retrofit2.ConverterGson" version="2.9.0" />
+        <dependency id="FlexboxLayoutXamarinBindingAndroid" version="1.0.2" />
+        <dependency id="Xamarin.Kotlin.StdLib" version="1.5.30" />
+        <dependency id="XamarinLibrary.Xamarin.Android.Facebook.Shimmer" version="0.5.0" />
     </dependencies>
 
   </metadata>
