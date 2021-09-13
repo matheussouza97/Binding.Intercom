@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Binding.Intercom.Android</id>
-    <version>9.1.0</version>
+    <version>9.2.0</version>
     <title>$title$</title>
     <authors>Matheus Souza</authors>
     <owners>Matheus Souza</owners>
@@ -18,6 +18,7 @@
         <dependency id="FlexboxLayoutXamarinBindingAndroid" version="1.0.2" />
         <dependency id="Xamarin.Kotlin.StdLib" version="1.5.30" />
         <dependency id="XamarinLibrary.Xamarin.Android.Facebook.Shimmer" version="0.5.0" />
+        <dependency id="Binding.Xamarin.Io.CoilKt.CoilGif" version="1.3.2" />
     </dependencies>
 
   </metadata>

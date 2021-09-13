@@ -43,10 +43,13 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\intercom-sdk-base-9.1.0.aar" />
+    <TransformFile Include="Transforms\Metadata.xml" />
   </ItemGroup>
   <ItemGroup>
-    <TransformFile Include="Transforms\Metadata.xml" />
+    <Folder Include="Jars\" />
+  </ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="Jars\intercom-sdk-base-9.2.0.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 

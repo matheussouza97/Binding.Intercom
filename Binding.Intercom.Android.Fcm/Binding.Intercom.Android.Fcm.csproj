@@ -43,7 +43,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\intercom-sdk-fcm-9.0.3.aar" />
+    <LibraryProjectZip Include="Jars\intercom-sdk-fcm-9.2.0.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 
