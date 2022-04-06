@@ -60,6 +60,7 @@
 	<remove-node path="/api/package[starts-with(@name,'io.intercom.okhttp3')]" />
 	<remove-node path="/api/package[starts-with(@name,'io.intercom.okio')]" />
 	<remove-node path="/api/package[starts-with(@name,'io.intercom.retrofit2')]" />
+	<remove-node path="/api/package[@name='io.intercom.android.sdk.survey.ui.questiontype.numericscale']/class[@name='NumericRatingQuestionKt.WhenMappings']"/>
 
 	<!-- RENAME NAMESPACES -->
 	<attr path="/api/package[@name='io.intercom.android.sdk']"

@@ -1,0 +1,6 @@
+﻿<metadata>
+
+  <remove-node path="/api/package[@name='coil.size']/class[@name='OriginalSize.Creator']"/>
+  <remove-node path="/api/package[@name='coil.size']/class[@name='PixelSize.Creator']"/>
+
+</metadata>

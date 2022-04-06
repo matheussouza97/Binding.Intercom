@@ -14,7 +14,7 @@
     <AssemblyName>Binding.Intercom.Twig</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
-    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v12.0</TargetFrameworkVersion>
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
@@ -47,7 +47,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 
   <Target Name="AfterBuild">
-    <Copy SourceFiles="bin\Debug\Binding.Intercom.Twig.dll" DestinationFolder="..\AndroidBuild\lib\MonoAndroid10" ContinueOnError="true" />
+    <Copy SourceFiles="bin\Debug\Binding.Intercom.Twig.dll" DestinationFolder="..\AndroidBuild\lib\MonoAndroid12" ContinueOnError="true" />
     <RemoveDir Directories="bin" />
     <RemoveDir Directories="obj" />
   </Target>
