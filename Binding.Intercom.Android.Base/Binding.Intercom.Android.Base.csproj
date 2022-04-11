@@ -49,7 +49,7 @@
     <Folder Include="Jars\" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\intercom-sdk-base-12.1.0.aar" />
+    <LibraryProjectZip Include="Jars\intercom-sdk-base-12.1.1.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 
